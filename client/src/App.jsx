@@ -8,7 +8,11 @@ import Tripcard from './components/Tripcard';
 function App() {
   const { searchTerm, setSearchTerm, results, error } = useTrips();
 
-
+  // handle tag click   clicked tag to searchTerm
+  const handleTagClick = (tag) => {
+    const newSearchTerm = `${searchTerm}${searchTerm ? ' ' : ''}${tag}`;
+    setSearchTerm(newSearchTerm);
+  };
 
   return (
     <div className="app">
