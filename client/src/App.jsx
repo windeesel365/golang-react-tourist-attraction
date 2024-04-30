@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import useTrips from './hooks/useTrips';
+import Header from './components/Header';
 
 
 
@@ -11,6 +12,7 @@ function App() {
 
   return (
     <div className="app">
+      <Header title="เที่ยวไหนดี" searchTerm={searchTerm} setSearchTerm={setSearchTerm} />      
      
     </div>
   );
