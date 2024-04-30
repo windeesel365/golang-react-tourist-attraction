@@ -188,3 +188,15 @@
         height: 22px;
     }       
 }    
+
+
+@media (min-width: 800px) {
+    .trip-small-image {
+        width: 70px;
+        height: 70px;
+    } 
+    .clipboard-image {
+        width: 26px;
+        height: 26px;
+    }       
+}
