@@ -3,6 +3,7 @@
 .app {
     font-family: "Kanit", sans-serif;
 }
+/*ใช้ font Kanit เป็นหลักของ project*/
 
 .app-header {
     text-align: center;
@@ -14,7 +15,6 @@
     padding: 0.5em 0;
     font-size: 2.4em;
     color: #2e9bdb;
-    font-family: "Kanit", sans-serif;
     font-weight: 500;
     font-style: normal;    
 }
@@ -48,7 +48,6 @@
 
 .search-input::placeholder {
     color: #8e8e8e;
-    font-family: "Kanit", sans-serif;
     font-weight: 400;
     font-style: normal; 
 }
