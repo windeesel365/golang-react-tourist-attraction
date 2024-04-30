@@ -157,3 +157,34 @@
 
 
 @media (min-width: 568px) {
+    .search-input {
+        width: 60%; /* fixed width  สำหรับ desktop */
+    }
+
+    .trip-card {
+        flex-direction: row; /* row layout  สำหรับ desktop */
+        align-items: start;
+        padding: 0.2em;
+        box-shadow: 0 2px 4px rgba(211, 210, 210, 0.1);
+    }
+
+    .trip-main-image {
+        width: 274px; /* fixed size  สำหรับ desktop */
+        height: 184px;
+    }
+
+    .trip-content {
+        padding: 0 1em;
+        flex-grow: 1;
+    }
+
+    .trip-small-image {
+        width: 54px;
+        height: 54px;
+    }   
+
+    .clipboard-image {
+        width: 22px;
+        height: 22px;
+    }       
+}    
