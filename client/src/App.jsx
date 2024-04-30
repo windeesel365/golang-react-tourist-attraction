@@ -1,7 +1,19 @@
-import "./App.css";
+import React from 'react';
+import './App.css';
+import useTrips from './hooks/useTrips';
+
+
 
 function App() {
-  return <div className="App">{/* Start coding here */}</div>;
+  const { searchTerm, setSearchTerm, results, error } = useTrips();
+
+
+
+  return (
+    <div className="app">
+     
+    </div>
+  );
 }
 
 export default App;
