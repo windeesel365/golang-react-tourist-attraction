@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import useTrips from './hooks/useTrips';
 import Header from './components/Header';
-
+import Tripcard from './components/Tripcard';
 
 
 function App() {
