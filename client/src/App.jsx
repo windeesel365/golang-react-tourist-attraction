@@ -13,7 +13,11 @@ function App() {
   return (
     <div className="app">
       <Header title="เที่ยวไหนดี" searchTerm={searchTerm} setSearchTerm={setSearchTerm} />      
-     
+      <div className="results-container">
+        {results.map(trip => (
+          <Tripcard key={trip.eid} trip={trip} handleTagClick={handleTagClick} />
+        ))}
+      </div>     
      
     </div>
   );
