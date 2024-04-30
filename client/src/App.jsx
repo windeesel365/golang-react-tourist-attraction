@@ -14,6 +14,7 @@ function App() {
     <div className="app">
       <Header title="เที่ยวไหนดี" searchTerm={searchTerm} setSearchTerm={setSearchTerm} />      
      
+     
     </div>
   );
 }
