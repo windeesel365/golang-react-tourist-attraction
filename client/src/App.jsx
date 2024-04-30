@@ -22,7 +22,7 @@ function App() {
           <Tripcard key={trip.eid} trip={trip} handleTagClick={handleTagClick} />
         ))}
       </div>     
-     
+      {error && <p className="error-message">{error}</p>}
     </div>
   );
 }
