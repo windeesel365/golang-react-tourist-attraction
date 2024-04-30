@@ -3,3 +3,18 @@
 .app {
     font-family: "Kanit", sans-serif;
 }
+
+.app-header {
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.app-title {
+    margin: 0;
+    padding: 0.5em 0;
+    font-size: 2.4em;
+    color: #2e9bdb;
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-style: normal;    
+}
