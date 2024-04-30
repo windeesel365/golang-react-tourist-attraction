@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 function Header({ searchTerm, setSearchTerm, handleSearch }) {
     return (
         <header className="app-header">
@@ -19,5 +20,6 @@ function Header({ searchTerm, setSearchTerm, handleSearch }) {
         </header>
     );
 }
+
 
 export default Header;
