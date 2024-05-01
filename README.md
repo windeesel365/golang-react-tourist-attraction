@@ -1,1 +1,1 @@
-## react-tourist-attraction-mini-project
+## golang-react-tourist-attraction
